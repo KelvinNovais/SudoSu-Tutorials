@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap');
 *{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Roboto Mono, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	color: white;
 }
 
 /* Default divs */
@@ -11,7 +12,7 @@
 }
 
 .column{
-    padding: 0px 10px;
+    padding: 0;
     float: left;
 }
 
@@ -20,79 +21,131 @@
 }
 
 /* Text Styles */
+
 h1{
 	font-size: 35px;
-	font-weight: 900;
 	padding: 10px;
-	color: white;
-	font-family: Roboto Mono;
+	font-weight: 700;
+	
+}
+
+h2, h3, h4, h5{
+	font-weight: 700;
+	padding: 30px 0 15px 0;
+	
 }
 
 h2{
 	font-size: 35px;
-	font-weight: 900;
-	padding: 25px 0 15px 0;
-	color: white;
-	font-family: Roboto Mono;
+	text-align: center;
 }
 
 h3{
 	font-size: 30px;
-	font-weight: 900;
-	padding: 25px 0 15px 0;
-	color: white;
-	font-family: Roboto Mono;
 }
 
 h4{
 	font-size: 27px;
-	font-weight: 900;
-	padding: 25px 0 15px 0;
-	color: white;
-	font-family: Roboto Mono;
 }
 
 h5{
 	font-size: 25px;
-	font-weight: 900;
-	padding: 25px 0 15px 0;
-	color: white;
-	font-family: Roboto Mono;
 }
 
 p{
 	font-size: 19px;
+	font-weight: 300;
 	line-height: 1.4;
 	text-indent: 30px;
-	color: white;
-	font-family: Roboto Mono;
+	text-align: justify;
 }
 
 strong{
-	font-weight: 800;
-	font-family: Roboto Mono;
+	font-weight: bolder;
 }
 
 /* Header */
-.logo, nav{
-	width: 50%;
+.logo{
+	width: 20%;
+	padding: 15px;
+	padding-left: 50px;
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 164%;
+	display: flex;
+	justify-content: flex-end;
 }
 
+.transition{
+    animation-name: transition;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+	margin-left: 7px;
+	font-size: 30px;
+}
+
+@keyframes transition {
+    0%, 100%{
+        opacity: 0%;
+    }
+
+    50%{
+        opacity: 100%;
+    }
+}
+
+nav{
+	width: 80%;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+#navDiv{
+	max-width: 700px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu {
+	border: none;
+	border-radius: 15px;
+	background: #28833e;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 100%;
+	width: 120px;
+	padding: 7px 0;
+}
+
+.menu:hover {
+    cursor: pointer;
+	background: #135223;
+	transition: 1s;
+}
+
+.active{
+	background: #135223;
+}
 
 /* Main */
 main{
-	width: 60%;
+	width: 90%;
+	max-width: 1300px;
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	padding: 20px 30px;
+	padding: 20px 45px;
 	color: black;
 	background-color: #222222;
 }
 
 .codeBlock{
-	padding: 10px 7px;
-	border-left: 5px red solid;
+	padding: 10px;
+	border-left: 5px #28833e solid;
 	border-radius: 3px;
 	background-color: black;
 	margin: 15px 0;
@@ -102,68 +155,40 @@ code{
 	font-family: monospace;
 	font-size: 14px;
 	line-height: 1.7;
-	color: white;
 }
 
-/* BODY */
+/* Body */
 body {
 	background-color: #1c1c1c;
 }
 
 /* Footer */
 footer{
-	/* position: absolute; */
+	font-size: 17px;
 	background-color: #c4c4c4;
-	color: white;
 	width: 100%;
-	/* bottom: 0px; */
-	font-family: Roboto mono;
-}
-
-.footerText{
-	color: black;
-	font-weight: bolder;
-	padding: 20px;
 }
 
 footer ul{
 	width: 100%;
 	max-width: 800px;
-	height: 50px;
+	height: 55px;
 	margin: auto;
     display: flex;
     justify-content: space-between;
 	align-items: center;
-	color: black;
 }
 
 footer ul li{
 	display: inline-block;
+	color: black;
 }
 
-/*-------ESTILIZAÇÃO GERAL-------*/
-.logo{
-	padding: 10px;
-	padding-left: 50px;
-	color: white;
-	font-family: Roboto Mono;
-	font-weight: 300;
-	font-size: 25px;
-	line-height: 164%;
+footer ul li:hover{
+	cursor: pointer;
+	text-decoration: underline;
 }
 
-.menu {
-	border: none;
-	background: none;
-	color: white;
-
-	font-family: Roboto Mono;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 100%;
-}
-
-.menu:hover {
-    cursor: pointer;
+footer strong{
+	color: black;
 }
