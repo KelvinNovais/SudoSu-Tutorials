@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 *{
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,40 +23,54 @@ h1{
 	font-size: 35px;
 	font-weight: 900;
 	padding: 10px;
+	color: white;
+	font-family: Roboto Mono;
 }
 
 h2{
 	font-size: 35px;
 	font-weight: 900;
 	padding: 25px 0 15px 0;
+	color: white;
+	font-family: Roboto Mono;
 }
 
 h3{
 	font-size: 30px;
 	font-weight: 900;
 	padding: 25px 0 15px 0;
+	color: white;
+	font-family: Roboto Mono;
 }
 
 h4{
 	font-size: 27px;
 	font-weight: 900;
 	padding: 25px 0 15px 0;
+	color: white;
+	font-family: Roboto Mono;
 }
 
 h5{
 	font-size: 25px;
 	font-weight: 900;
 	padding: 25px 0 15px 0;
+	color: white;
+	font-family: Roboto Mono;
 }
 
 p{
 	font-size: 19px;
 	line-height: 1.4;
 	text-indent: 30px;
+	color: white;
+	font-family: Roboto Mono;
 }
 
 strong{
 	font-weight: 800;
+	color: white;
+	font-family: Roboto Mono;
 }
 
 /* Header */
@@ -72,7 +87,7 @@ main{
 	margin-bottom: 20px;
 	padding: 20px 30px;
 	color: black;
-	background-color: whitesmoke;
+	background-color: #222222;
 }
 
 .codeBlock{
@@ -90,6 +105,11 @@ code{
 	color: white;
 }
 
+/* BODY */
+body {
+	background-color: #1c1c1c;
+}
+
 /* Footer */
 footer{
 	/* position: absolute; */
@@ -97,6 +117,7 @@ footer{
 	color: white;
 	width: 100%;
 	/* bottom: 0px; */
+	font-family: Roboto Mono;
 }
 
 footer ul{
@@ -111,4 +132,27 @@ footer ul{
 
 footer ul li{
 	display: inline-block;
+}
+
+/*-------ESTILIZAÇÃO GERAL-------*/
+.logo{
+	padding: 10px;
+	padding-left: 50px;
+	color: white;
+	font-family: Roboto Mono;
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 164%;
+}
+
+.menu {
+	border: none;
+	background: none;
+	color: white;
+
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 100%;
 }
