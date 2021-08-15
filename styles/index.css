@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
 *{
-	font-family: Roboto Mono, Arial, Helvetica, sans-serif;
+	font-family: Roboto Mono, Poppins, Arial, Helvetica, sans-serif;
 	font-weight: 300;
 	color: white;
 }
@@ -23,21 +24,25 @@
 /* Text Styles */
 
 h1{
-	font-size: 35px;
 	padding: 10px;
-	font-weight: 700;
-	
+	font-weight: 350;
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 164%;
 }
 
 h2, h3, h4, h5{
-	font-weight: 700;
+	font-weight: 350;
 	padding: 30px 0 15px 0;
-	
+
 }
 
 h2{
-	font-size: 35px;
-	text-align: center;
+	font-size: 40px;
+	padding-top:100px;
+	padding-left: 35px;
 }
 
 h3{
@@ -68,7 +73,7 @@ strong{
 .logo{
 	width: 20%;
 	padding: 15px;
-	padding-left: 50px;
+	padding-right: 80px;
 	font-weight: 300;
 	font-size: 25px;
 	line-height: 164%;
@@ -108,18 +113,22 @@ nav{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	
 }
 
 .menu {
 	border: none;
 	border-radius: 15px;
 	background: #28833e;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 19px;
-	line-height: 100%;
 	width: 120px;
 	padding: 7px 0;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 100%;
 }
 
 .menu:hover {
@@ -141,7 +150,6 @@ main{
 	margin-bottom: 20px;
 	padding: 20px 45px;
 	color: black;
-	background-color: #222222;
 }
 
 .codeBlock{
@@ -160,29 +168,36 @@ code{
 
 /* Body */
 body {
-	background-color: #1c1c1c;
+	background-color: #151515;
 }
 
 /* Footer */
 footer{
 	font-size: 17px;
-	background-color: #c4c4c4;
+	background-color: #F5F3F3;
 	width: 100%;
 }
 
 footer ul{
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 	height: 55px;
 	margin: auto;
     display: flex;
     justify-content: space-between;
 	align-items: center;
+	padding: 10px;
 }
 
 footer ul li{
 	display: inline-block;
 	color: black;
+
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 100%;
 }
 
 footer ul li:hover{
@@ -193,3 +208,5 @@ footer ul li:hover{
 footer strong{
 	color: black;
 }
+
+/*-----SLOGAN-----*/
