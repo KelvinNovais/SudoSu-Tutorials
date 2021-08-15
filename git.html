@@ -28,24 +28,96 @@
 			</div>   
 		</header>
 		<main>
-			<h2>Título h2</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum nibh dolor, vitae sodales sem sollicitudin non. In hac habitasse platea dictumst. Proin in dolor nunc. Donec quis posuere dui. Donec gravida luctus erat, ac scelerisque nulla aliquam in. Aliquam sed dignissim magna. Ut egestas leo non dolor molestie, vel vestibulum sapien fringilla. Sed ut arcu pharetra nisi porttitor maximus et eu nulla. Nunc ut odio lacus. </p>
-			<p>Vivamus quis diam sapien. Vivamus eget dignissim sem, vitae tincidunt erat. Aenean vitae sollicitudin risus. Donec id suscipit tortor. Nullam aliquet id erat id sagittis. Etiam id venenatis nisl. Aenean nec venenatis ante. Duis quis cursus sem. Donec ipsum ante, ornare vel tempus ac, vehicula in nibh. Donec cursus dolor vel orci convallis gravida. Curabitur nisi ligula, molestie sed suscipit in, consequat a lectus. </p>
-			<h3>Título h3</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum nibh dolor, vitae sodales sem sollicitudin non. In hac habitasse platea dictumst. Proin in dolor nunc. Donec quis posuere dui. Donec gravida luctus erat, ac scelerisque nulla aliquam in. Aliquam sed dignissim magna. Ut egestas leo non dolor molestie, vel vestibulum sapien fringilla. Sed ut arcu pharetra nisi porttitor maximus et eu nulla. Nunc ut odio lacus. </p>
-			<p>Vivamus quis diam sapien. Vivamus eget dignissim sem, vitae tincidunt erat. Aenean vitae sollicitudin risus. Donec id suscipit tortor. Nullam aliquet id erat id sagittis. Etiam id venenatis nisl. Aenean nec venenatis ante. Duis quis cursus sem. Donec ipsum ante, ornare vel tempus ac, vehicula in nibh. Donec cursus dolor vel orci convallis gravida. Curabitur nisi ligula, molestie sed suscipit in, consequat a lectus. </p>
-			<h4>Título h4</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum nibh dolor, vitae sodales sem sollicitudin non. In hac habitasse platea dictumst. Proin in dolor nunc. Donec quis posuere dui. Donec gravida luctus erat, ac scelerisque nulla aliquam in. Aliquam sed dignissim magna. Ut egestas leo non dolor molestie, vel vestibulum sapien fringilla. Sed ut arcu pharetra nisi porttitor maximus et eu nulla. Nunc ut odio lacus. </p>
-			<p>Vivamus quis diam sapien. Vivamus eget dignissim sem, vitae tincidunt erat. Aenean vitae sollicitudin risus. Donec id suscipit tortor. Nullam aliquet id erat id sagittis. Etiam id venenatis nisl. Aenean nec venenatis ante. Duis quis cursus sem. Donec ipsum ante, ornare vel tempus ac, vehicula in nibh. Donec cursus dolor vel orci convallis gravida. Curabitur nisi ligula, molestie sed suscipit in, consequat a lectus. </p>
-			<h5>Título h5</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum nibh dolor, vitae sodales sem sollicitudin non. In hac habitasse platea dictumst. Proin in dolor nunc. Donec quis posuere dui. Donec gravida luctus erat, ac scelerisque nulla aliquam in. Aliquam sed dignissim magna. Ut egestas leo non dolor molestie, vel vestibulum sapien fringilla. Sed ut arcu pharetra nisi porttitor maximus et eu nulla. Nunc ut odio lacus. </p>
-			<p>Vivamus quis diam sapien. Vivamus eget dignissim sem, vitae tincidunt erat. Aenean vitae sollicitudin risus. Donec id suscipit tortor. Nullam aliquet id erat id sagittis. Etiam id venenatis nisl. Aenean nec venenatis ante. Duis quis cursus sem. Donec ipsum ante, ornare vel tempus ac, vehicula in nibh. Donec cursus dolor vel orci convallis gravida. Curabitur nisi ligula, molestie sed suscipit in, consequat a lectus. </p>
+			<h2>Git</h2>
+			<p>O GIT é um sistema de controle de versão mde código aberto. Foi desenvolvido por Linus Torvals (também criador do kernel Linux), e está sendo mantido por Junio Hamano. Algumas de suas funcionalidades são:</p>
+			<ul>
+				<li>permite aos desenvolvedores ter uma infinidade de ramos de código completamente independente. Criação, exclusão e fusão desses ramos é simples e não leva tempo.</li>
+				<li>usa um modelo de dados que ajuda a garantir a integridade criptográfica de qualquer coisa presente dentro de um repositório. Cada vez que um arquivo é adicionado ou um commit é feito, suas somas de verificação são geradas. Da mesma forma, eles são recuperados através de suas somas de verificação também.</li>
+			</ul>
+			<h3>Instalação</h3>
+			<h4>Linux</h4>
+			<h5>Sistemas Debian e derivados (apt)</h5>
 			<div class="codeBlock">
 				<code>
-					$name = ['Kelvin', 'Ribeiro'];<br>
-					$sudo su
+					sudo apt-get update <br>
+					sudo apt-get install git
 				</code>
 			</div>
+			<h5>Fedora (dnf e yum)</h5>
+			<div class="codeBlock">
+				<code>
+					sudo dnf install git <br>
+					sudo yum install git
+				</code>
+			</div>
+			<h3>Configuração</h3>
+			<p>Verifique se a instalação foi bem sucedida com:</p>
+			<div class="codeBlock">
+				<code>
+					git --version
+				</code>
+			</div>
+			<p>Por fim, defina o usuário e email:</p>
+			<div class="codeBlock">
+				<code>
+					git config --global user.name "Kelvin Ribeiro" <br>
+					git config --global user.email "exemplo@email.com"
+				</code>
+			</div>
+			<h3>Antes de começar</h3>
+			<p>Utilizando distros Linux, há alguns comandos que podem ser úteis para manejar os arquivos e diretórios, facilitando o uso do Git:</p>
+			<ul>
+				<li>
+					cd (change directory): muda para o diretório especificado
+					<ul>
+						<li>cd .. (retorna para o diretório anterior)</li>
+					</ul>
+				</li>
+				<li>mkdir (make directory): cria uma pasta</li>
+				<li>touch <code><"nome do arquivo"></code>: cria uma arquivo com o nome especificado</li>
+				<li>rm (remove): remove diretórios ou arquivos</li>				
+			</ul>
+			<h3>Usando o Git</h3>
+			<h4>git init</h4>
+			<p>O git init serve para iniciar um repositório. Pelo terminal, você deve navegar o diretório em que o projeto se encontra e executar o comando:</p>
+			<p>Supondo que você tenha criado a pasta "GitHub" em "Documentos", seu diretório ficará assim:</p>
+			<div class="codeBlock">
+				<code>
+					/home/$USER/Documentos/GitHub/
+				</code>
+			</div>
+			<p>Agora, dentro dessa pasta, cria-se outra, chamada "Projeto1", contendo uma página HTML com CSS. Navegue pelo terminal:</p>
+			<div class="codeBlock">
+				<code>
+					cd /home/$USER/Documentos/GitHub/Projeto1
+				</code>
+			</div>
+			<p>Ou use a interface gráfica:</p>
+			<h2>IMAGEM!!!!!!</h2>
+			<p>Por fim execute o comando:</p>
+			<div class="codeBlock">
+				<code>
+					git init
+				</code>
+			</div>
+			<h4>git add</h4>
+			<p>O repositírio foi criado, mas nenhum arquivo está sendo rastreado. Para adicioná-los ao repositório, utilize o comando:</p>
+			<div class="codeBlock">
+				<code>
+					git add ..	
+				</code>
+			</div>
+			<p>Ele adcionará TODOS os arquivos da pasta, se você quiser adicionar um arquio em específico, utilize git add <code><"nome do arquivo"></nome><code></code></nome></p>
+			<h4>git commit e git push</h4>
+			<p>O repositório foi iniciado, os arquivos foram adcionados, mas as modificações não foram salvas.</p>
+			<p>Para que as mudanças sejam consideradas e atualizadas no repositírio, é necessário executar os comandos:</p>
+			<div class="codeBlock">
+				<code>
+					git commit –m “Mensagem para o commit” <br>
+					git push
+				</code>
+			</div>
+			<p>Logo em seguida, será necessário digitar seu usuário e senha.</p>
 		</main>
 		<footer>
 			<ul>

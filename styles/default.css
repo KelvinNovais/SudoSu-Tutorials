@@ -41,15 +41,15 @@ h2{
 }
 
 h3{
-	font-size: 30px;
+	font-size: 29px;
 }
 
 h4{
-	font-size: 27px;
+	font-size: 25px;
 }
 
 h5{
-	font-size: 25px;
+	font-size: 23px;
 }
 
 p{
@@ -57,6 +57,23 @@ p{
 	font-weight: 300;
 	line-height: 1.4;
 	text-indent: 30px;
+	text-align: justify;
+}
+
+main ul{
+	padding-top: 10px;
+}
+
+main ul ul{
+	padding-top: 0;
+}
+
+main li, main li li{
+	list-style-type: disc;
+	padding-top: 1.5%;
+	margin-left: 4%;
+	font-size: 17px;
+	line-height: 1.2;
 	text-align: justify;
 }
 
@@ -138,8 +155,7 @@ main{
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	padding: 20px 45px;
-	color: black;
+	padding: 2% 4%;
 	background-color: #222222;
 }
 
@@ -170,18 +186,23 @@ footer{
 }
 
 footer ul{
-	width: 100%;
-	max-width: 800px;
+	width: 95%;
+	max-width: 1000px;
 	height: 55px;
 	margin: auto;
     display: flex;
     justify-content: space-between;
 	align-items: center;
+	padding: 7px 0;
 }
 
 footer ul li{
+	width: 90%;
 	display: inline-block;
 	color: black;
+	line-height: 1;
+	text-align: center;
+	/* border-left: black solid 2px; */
 }
 
 footer ul li:hover{
