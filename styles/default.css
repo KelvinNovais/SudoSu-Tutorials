@@ -1,4 +1,15 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.codeblock{
+	padding: 10px 7px;
+	border-left: 5px red solid;
+	border-radius: 3px;
+	background-color: black;
+}
+
 code{
 	font-family: monospace;
-	color: black;
+	color: white;
 }
