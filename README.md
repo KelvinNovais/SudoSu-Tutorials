@@ -1,6 +1,7 @@
 # GitTutorials
-A group website about Git, GitHub and GitPages.
-Website available at: https://github.com/Kelvin-rnov/GitTutorials#como-usar
+A group website about Git, GitHub and GitPages.  
+
+Website available at: https://kelvin-rnov.github.io/GitTutorials/
 
 Tabela de conteúdos
 =================
