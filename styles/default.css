@@ -213,6 +213,7 @@ footer{
 	font-size: 17px;
 	background-color: #315838;
 	width: 100%;
+	bottom:0;
 }
 
 footer ul{
@@ -229,6 +230,7 @@ footer ul{
 footer ul li{
 	display: inline-block;
 	color: white;
+
 	font-family: Roboto Mono;
 	font-style: normal;
 	font-weight: normal;
