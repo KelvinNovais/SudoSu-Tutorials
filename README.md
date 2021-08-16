@@ -6,11 +6,11 @@ Website available at: https://kelvin-rnov.github.io/GitTutorials/
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Estilização-da-página)
-   * [Estilização da página](#como-usar)
-   * [Estrutura do repositório](#tabela-de-conteudo)
-   * [Organização de tarefas](#instalacao)
-   * [Autores](#testes)
+   * [Sobre](#sobre)
+   * [Estilização da página](#estilização-da-pagina)
+   * [Estrutura do repositório](#estrutura-do-repositorio))
+   * [Organização de tarefas](#organizaçao-de-tarefas)
+   * [Autores](#autores)
 <!--te-->
 
 
