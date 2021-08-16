@@ -37,7 +37,7 @@ As páginas foram pensadas para serem funcionais e simples, para que o conteúdo
 <p align="center">
   <img src="images\index-wireframe.PNG" title="hover text">
 
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="images\paginas-segundarias.PNG"  alt="hover">
 </p>
 
 
