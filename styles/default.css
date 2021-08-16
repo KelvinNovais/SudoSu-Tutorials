@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
 *{
-	font-family: Roboto Mono, Arial, Helvetica, sans-serif;
+	font-family: Roboto Mono, Poppins, Arial, Helvetica, sans-serif;
 	font-weight: 300;
 	color: white;
 }
@@ -23,33 +24,40 @@
 /* Text Styles */
 
 h1{
-	font-size: 35px;
 	padding: 10px;
-	font-weight: 700;
-	
+	font-weight: 350;
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 164%;
 }
 
 h2, h3, h4, h5{
 	font-weight: 700;
 	padding: 30px 0 15px 0;
-	
+	color: black;
 }
 
 h2{
 	font-size: 35px;
 	text-align: center;
+	color: black;
 }
 
 h3{
 	font-size: 30px;
+	color: black;
 }
 
 h4{
 	font-size: 27px;
+	color: black;
 }
 
 h5{
 	font-size: 25px;
+	color: black;
 }
 
 p{
@@ -58,17 +66,20 @@ p{
 	line-height: 1.4;
 	text-indent: 30px;
 	text-align: justify;
+	color: black;
+	font-family: Poppins;
 }
 
 strong{
 	font-weight: bolder;
+	color: black;
 }
 
 /* Header */
 .logo{
 	width: 20%;
 	padding: 15px;
-	padding-left: 50px;
+	padding-right: 0px;
 	font-weight: 300;
 	font-size: 25px;
 	line-height: 164%;
@@ -96,7 +107,7 @@ strong{
 }
 
 nav{
-	width: 80%;
+	width: 100%;
 	padding: 15px;
 	display: flex;
 	justify-content: center;
@@ -104,32 +115,40 @@ nav{
 
 #navDiv{
 	max-width: 700px;
-	width: 100%;
+	width: 60%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	padding-left: 35%;
 }
 
 .menu {
 	border: none;
 	border-radius: 15px;
 	background: #28833e;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 19px;
-	line-height: 100%;
 	width: 120px;
 	padding: 7px 0;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 100%;
+
+	background: none;
 }
 
 .menu:hover {
     cursor: pointer;
-	background: #a2a8a4;
+	background: #C4C4C4;
 	transition: 1s;
+	color: black;
 }
 
 .active{
-	background: #135223;
+	background: #315838;
+	color: white;
 }
 
 /* Main */
@@ -141,12 +160,20 @@ main{
 	margin-bottom: 20px;
 	padding: 20px 45px;
 	color: black;
-	background-color: #222222;
+	background: #C4C4C4;
+	border-radius: 15px 15px 0px 0px;
+	max-width: 900px;
+}
+
+main li {
+	color: black;
+	font-family: Poppins;
+	font-size: 19px;
 }
 
 .codeBlock{
 	padding: 10px;
-	border-left: 5px #28833e solid;
+	border-left: 5px #315838 solid;
 	border-radius: 3px;
 	background-color: black;
 	margin: 15px 0;
@@ -160,29 +187,36 @@ code{
 
 /* Body */
 body {
-	background-color: #1c1c1c;
+	background-color: #151515;
 }
 
 /* Footer */
 footer{
 	font-size: 17px;
-	background-color: #c4c4c4;
+	background-color: #315838;
 	width: 100%;
 }
 
 footer ul{
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 	height: 55px;
 	margin: auto;
     display: flex;
     justify-content: space-between;
 	align-items: center;
+	padding: 10px;
 }
 
 footer ul li{
 	display: inline-block;
-	color: black;
+	color: white;
+
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 100%;
 }
 
 footer ul li:hover{

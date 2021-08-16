@@ -43,6 +43,7 @@ h2{
 	font-size: 40px;
 	padding-top:100px;
 	padding-left: 35px;
+
 }
 
 h3{
@@ -73,7 +74,7 @@ strong{
 .logo{
 	width: 20%;
 	padding: 15px;
-	padding-right: 80px;
+	padding-right: 0px;
 	font-weight: 300;
 	font-size: 25px;
 	line-height: 164%;
@@ -101,7 +102,7 @@ strong{
 }
 
 nav{
-	width: 80%;
+	width: 100%;
 	padding: 15px;
 	display: flex;
 	justify-content: center;
@@ -109,17 +110,17 @@ nav{
 
 #navDiv{
 	max-width: 700px;
-	width: 100%;
+	width: 60%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	
+	padding-left: 35%;
 }
 
 .menu {
 	border: none;
 	border-radius: 15px;
-	background: #28833e;
+	background: #315838;
 	font-size: 19px;
 	width: 120px;
 	padding: 7px 0;
@@ -129,16 +130,20 @@ nav{
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 100%;
+
+	background: none;
 }
 
 .menu:hover {
     cursor: pointer;
-	background: #a2a8a4;
+	background: #C4C4C4;
 	transition: 1s;
+	color: black;
 }
 
 .active{
-	background: #135223;
+	background: #315838;
+	color: white;
 }
 
 /* Main */
@@ -154,7 +159,7 @@ main{
 
 .codeBlock{
 	padding: 10px;
-	border-left: 5px #28833e solid;
+	border-left: 5px #315838 solid;
 	border-radius: 3px;
 	background-color: black;
 	margin: 15px 0;
@@ -174,7 +179,7 @@ body {
 /* Footer */
 footer{
 	font-size: 17px;
-	background-color: #F5F3F3;
+	background-color: #315838;
 	width: 100%;
 }
 
@@ -191,7 +196,7 @@ footer ul{
 
 footer ul li{
 	display: inline-block;
-	color: black;
+	color: white;
 
 	font-family: Roboto Mono;
 	font-style: normal;
@@ -209,4 +214,9 @@ footer strong{
 	color: black;
 }
 
-/*-----SLOGAN-----*/
+body {
+	background-image: url(../images/vector.svg); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position-y: -300%;
+}
