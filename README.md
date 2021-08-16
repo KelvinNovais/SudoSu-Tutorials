@@ -35,8 +35,8 @@ As páginas foram pensadas para serem funcionais e simples, para que o conteúdo
 ###  Wireframe
 ![Alt text](/../<branch main>/images/index-wireframe.png?raw=true "Optional Title")
 <p align="center">
-  <img src="images\index-wireframe.PNG" width="350" title="hover text">
-  
+  <img src="images\index-wireframe.PNG" title="hover text">
+
   <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
 </p>
 
