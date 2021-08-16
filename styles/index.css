@@ -210,6 +210,7 @@ footer ul li{
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 100%;
+	text-decoration: none;
 }
 
 footer ul li:hover{
