@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 *{
 	font-family: Roboto Mono, Poppins, Arial, Helvetica, sans-serif;
 	font-weight: 300;
@@ -22,15 +22,15 @@
 }
 
 /* Text Styles */
-
 h1{
 	padding: 10px;
-	font-weight: 350;
-	font-family: Roboto Mono;
+	font-weight: 300;
+	font-family: Ubuntu Mono;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 30px;
 	line-height: 164%;
+	color: #e4e4e4;
 }
 
 h2, h3, h4, h5{
@@ -62,7 +62,6 @@ h5{
 
 p{
 	font-size: 19px;
-	font-weight: 300;
 	line-height: 1.4;
 	text-indent: 30px;
 	text-align: justify;
@@ -73,6 +72,23 @@ p{
 strong{
 	font-weight: bolder;
 	color: black;
+}
+
+main ul{
+	padding-top: 10px;
+}
+
+main ul ul{
+	padding-top: 0;
+}
+
+main li, main li li{
+	list-style-type: disc;
+	padding-top: 1.5%;
+	margin-left: 4%;
+	font-size: 17px;
+	line-height: 1.2;
+	text-align: justify;
 }
 
 /* Header */
@@ -129,13 +145,11 @@ nav{
 	font-size: 19px;
 	width: 120px;
 	padding: 7px 0;
-
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 100%;
-
 	background: none;
 }
 
@@ -185,6 +199,10 @@ code{
 	line-height: 1.7;
 }
 
+main a{
+	color: black;
+}
+
 /* Body */
 body {
 	background-color: #151515;
@@ -211,7 +229,6 @@ footer ul{
 footer ul li{
 	display: inline-block;
 	color: white;
-
 	font-family: Roboto Mono;
 	font-style: normal;
 	font-weight: normal;
@@ -227,3 +244,9 @@ footer ul li:hover{
 footer strong{
 	color: black;
 }
+
+a {
+	text-decoration: none;
+}
+
+/*-------ÁREA DE EDIÇÃO LIVRE-------*/

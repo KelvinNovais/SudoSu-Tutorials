@@ -29,7 +29,7 @@
 		</header>
 		<main>
 			<h2>Git</h2>
-			<p>O GIT é um sistema de controle de versão mde código aberto. Foi desenvolvido por Linus Torvals (também criador do kernel Linux), e está sendo mantido por Junio Hamano. Algumas de suas funcionalidades são:</p>
+			<p>O GIT é um sistema de controle de versão de código aberto. Foi desenvolvido por Linus Torvals (também criador do kernel Linux), e está sendo mantido por Junio Hamano. Algumas de suas funcionalidades são:</p>
 			<ul>
 				<li>permite aos desenvolvedores ter uma infinidade de ramos de código completamente independente. Criação, exclusão e fusão desses ramos é simples e não leva tempo.</li>
 				<li>usa um modelo de dados que ajuda a garantir a integridade criptográfica de qualquer coisa presente dentro de um repositório. Cada vez que um arquivo é adicionado ou um commit é feito, suas somas de verificação são geradas. Da mesma forma, eles são recuperados através de suas somas de verificação também.</li>
@@ -74,7 +74,7 @@
 					</ul>
 				</li>
 				<li>mkdir (make directory): cria uma pasta</li>
-				<li>touch <code><"nome do arquivo"></code>: cria uma arquivo com o nome especificado</li>
+				<li>touch "nome do arquivo": cria uma arquivo com o nome especificado</li>
 				<li>rm (remove): remove diretórios ou arquivos</li>				
 			</ul>
 			<h3>Usando o Git</h3>
@@ -93,7 +93,7 @@
 				</code>
 			</div>
 			<p>Ou use a interface gráfica:</p>
-			<h2>IMAGEM!!!!!!</h2>
+			<img src="images/Terminal.png" alt="Exemplo">
 			<p>Por fim execute o comando:</p>
 			<div class="codeBlock">
 				<code>
@@ -107,7 +107,7 @@
 					git add ..	
 				</code>
 			</div>
-			<p>Ele adcionará TODOS os arquivos da pasta, se você quiser adicionar um arquio em específico, utilize git add <code><"nome do arquivo"></nome><code></code></nome></p>
+			<p>Ele adcionará TODOS os arquivos da pasta, se você quiser adicionar um arquio em específico, utilize git add "nome do arquivo"</p>
 			<h4>git commit e git push</h4>
 			<p>O repositório foi iniciado, os arquivos foram adcionados, mas as modificações não foram salvas.</p>
 			<p>Para que as mudanças sejam consideradas e atualizadas no repositírio, é necessário executar os comandos:</p>
@@ -118,15 +118,39 @@
 				</code>
 			</div>
 			<p>Logo em seguida, será necessário digitar seu usuário e senha.</p>
+			<h4>Branches</h4>
+			<p>O objetivo principal de um branch é desenvolver novas funcionalidades, mantendo-os isolados uns dos outros. O branch padrão em qualquer projeto é sempre o master branch. Tantos branches quanto necessários podem ser criados e eventualmente mesclados ao master branch.</p>
+			<p>Um novo branch pode ser criado usando o seguinte comando:</p>
+			<div class="codeBlock">
+				<code>
+					git checkout -b feature_n *
+				</code>
+			</div>
+			<p>feature_n é o nome do branch.</p>
+			<p>Se você deseja retornar ao master branch, o seguinte comando pode ser usado:</p>
+			<div class="codeBlock">
+				<code>
+					git checkout master
+				</code>
+			</div>
+			<h4>merge</h4>
+			<p>Para mesclar outro branch (dar um merge) no atualmente ativo, use:</p>
+			<div class="codeBlock">
+				<code>
+					git merge feature_n
+				</code>
+			</div>
+			<br>
+			<em><p>Texto baseado no <a href="https://www.hostinger.com.br/tutoriais/tutorial-do-git-basics-introducao">Tutorial da Hostinger</a></p></em>
 		</main>
 		<footer>
 			<ul>
-				<li>Sintia Tháfeny</li>
-				<li>Kelvin Ribeiro</li>
-				<li>Ligia Alves</li>
-				<li>Vinicius Nascimento</li>
-				<li>Nicolas Luis</li>
-				<li>Pedro Garcia</li>
+				<li><a href="https://github.com/sintiathafeny" target="_blank">Sintia Tháfeny</a></li>
+				<li><a href="https://github.com/Kelvin-rnov/" target="_blank">Kelvin Ribeiro</a></li>
+				<li><a href="https://github.com/LigiaAlves/" target="_blank">Ligia Alves</a></li>
+				<li><a href="https://github.com/ViniciusNB/" target="_blank">Vinicius Nascimento</a></li>
+				<li><a href="https://github.com/NicolasScariot/" target="_blank">Nicolas Luis</a></li>
+				<li><a href="https://github.com/pedrooks3034/" target="_blank">Pedro Garcia</a></li>
 			</ul>
 		</footer>
 	</body>
