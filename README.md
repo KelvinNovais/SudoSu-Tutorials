@@ -4,7 +4,7 @@ A group website about Git, GitHub and GitPages.
 Website available at: https://kelvin-rnov.github.io/GitTutorials/
 
 <p align="center">
-  <img src="images\sudosu-logo.png" title="hover text">
+  <img src="images\sudosu-logo.png" width="300px" title="hover text">
 </p>
 
 Tabela de conteúdos
