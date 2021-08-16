@@ -243,3 +243,8 @@ footer ul li:hover{
 footer strong{
 	color: black;
 }
+
+#img{
+	width: 800px;
+	height: 400px;
+}
