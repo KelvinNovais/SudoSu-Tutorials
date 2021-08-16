@@ -42,7 +42,7 @@ O repositório está organizado em uma pasta para os arquivos CSS e outra para i
 
 
 ## Organização de tarefas
-Nós utilizamos, para a organização dos projetos, a ferramenta trello. Focamos nas metodologias ágeis SCRUM e Kamban para melhor proveitamento do tempo.
+Nós utilizamos, para a organização dos projetos, a ferramenta trello. Focamos nas metodologias ágeis SCRUM e Kamban para melhor proveitamento de tempo e recursos.
 
 ## Autores
 
