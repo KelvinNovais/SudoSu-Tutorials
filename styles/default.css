@@ -203,9 +203,13 @@ main a{
 	color: black;
 }
 
-/* Body */
 body {
 	background-color: #151515;
+}
+
+.img{
+	width: 100%;
+	margin-bottom: 20px;
 }
 
 /* Footer */
@@ -245,9 +249,4 @@ footer ul li:hover{
 
 footer strong{
 	color: black;
-}
-
-#img{
-	width: 800px;
-	height: 400px;
 }
