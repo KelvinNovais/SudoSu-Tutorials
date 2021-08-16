@@ -33,8 +33,9 @@ Tabela de conteúdos
 ## Estilização da página
 As páginas foram pensadas para serem funcionais e simples, para que o conteúdo seja o foco do nosso website. Nós definimos uma folha de estilo padrão para todas as páginas, exeto pelo índice. A paleta de cores é simples e blalcllcla
 ###  Wireframe
+![Alt text](images/index-wireframe.PNG"Index Wireframe")
 
-
+images/index-wireframe.PNG
 
 
 ## Estrutura do repositório
