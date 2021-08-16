@@ -8,7 +8,7 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre](#sobre)
    * [Estilização da página](#estilização-da-pagina)
-   * [Estrutura do repositório](#estrutura-do-repositorio))
+   * [Estrutura do repositório](#estrutura-do-repositorio)
    * [Organização de tarefas](#organizaçao-de-tarefas)
    * [Autores](#autores)
 <!--te-->
