@@ -25,11 +25,12 @@
 h1{
 	padding: 10px;
 	font-weight: 300;
-	font-family: Roboto Mono;
+	font-family: Ubuntu Mono;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 30px;
 	line-height: 164%;
+	color: #e4e4e4;
 }
 
 h2, h3, h4, h5{
@@ -243,3 +244,9 @@ footer ul li:hover{
 footer strong{
 	color: black;
 }
+
+a {
+	text-decoration: none;
+}
+
+/*-------ÁREA DE EDIÇÃO LIVRE-------*/
