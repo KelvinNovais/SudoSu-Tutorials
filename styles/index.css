@@ -170,7 +170,17 @@ code{
 
 /* Body */
 body {
+	width: 100%;
 	background-color: #151515;
+	background-image: url(../images/vector.svg); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-blend-mode: lighten;
+	background-attachment: fixed;
+
+	margin: 0 auto;
+	min-width:600px;
+	max-width:2000px
 }
 
 /* Footer */
@@ -209,14 +219,6 @@ footer ul li:hover{
 
 footer strong{
 	color: black;
-}
-
-body {
-	background-image: url(../images/vector.svg); 
-	background-size: cover; 
-	background-repeat: no-repeat; 
-	background-blend-mode: lighten;
-	background-attachment: fixed;
 }
 
 a {
