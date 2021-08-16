@@ -24,7 +24,7 @@ As páginas foram pensadas para serem funcionais e simples, para que o conteúdo
 #### Wireframe da página inicial
 
 
-![Alt text](/../<branch main>/images/index-wireframe.png?raw=true "Optional Title")
+
 <p align="center">
   <img src="images\index-wireframe.PNG" title="hover text">
 </p>
@@ -44,9 +44,14 @@ Nós utilizamos, para a organização dos projetos, a ferramenta trello. Focamos
 
 ## Autores
 
-Sintia - https://github.com/sintiathafeny
-Kelvin - https://github.com/Kelvin-rnov/
-Ligia - https://github.com/LigiaAlves/
-Vinícius - https://github.com/ViniciusNB/
-Nicolas - https://github.com/NicolasScariot/
-Pedro - https://github.com/pedrooks3034/
+Sintia - https://github.com/sintiathafeny  
+
+Kelvin - https://github.com/Kelvin-rnov/  
+
+Ligia - https://github.com/LigiaAlves/  
+
+Vinícius - https://github.com/ViniciusNB/  
+
+Nicolas - https://github.com/NicolasScariot/  
+
+Pedro - https://github.com/pedrooks3034/  
