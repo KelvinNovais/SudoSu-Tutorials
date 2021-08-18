@@ -31,18 +31,95 @@
 			</div>   
 		</header>
 		<main>
-			<h2>AWS (Amazon Web Services)/h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum nibh dolor, vitae sodales sem sollicitudin non. In hac habitasse platea dictumst. Proin in dolor nunc. Donec quis posuere dui. Donec gravida luctus erat, ac scelerisque nulla aliquam in. Aliquam sed dignissim magna. Ut egestas leo non dolor molestie, vel vestibulum sapien fringilla. Sed ut arcu pharetra nisi porttitor maximus et eu nulla. Nunc ut odio lacus. </p>
-			<p>Vivamus quis diam sapien. Vivamus eget dignissim sem, vitae tincidunt erat. Aenean vitae sollicitudin risus. Donec id suscipit tortor. Nullam aliquet id erat id sagittis. Etiam id venenatis nisl. Aenean nec venenatis ante. Duis quis cursus sem. Donec ipsum ante, ornare vel tempus ac, vehicula in nibh. Donec cursus dolor vel orci convallis gravida. Curabitur nisi ligula, molestie sed suscipit in, consequat a lectus. </p>
+			<h2>AWS (Amazon Web Services)</h2>
+			<p>Amazon Web Services (Serviços Web da Amazon), também conhecido como AWS, é uma plataforma de serviços de computação em nuvem, que formam uma plataforma de computação na nuvem oferecida pela Amazon.com. Os serviços são oferecidos em várias geográficas distribuídas pelo mundo. Os serviços mais conhecidos são o Amazon Elastic Compute Cloud e o Amazon S3.A Amazon Web Services oferece serviços de computação em nuvem confiáveis, escaláveis e acessíveis. A inscrição é gratuita, você paga apenas pelo que usar.</p>
 			<h3>Título h3</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum nibh dolor, vitae sodales sem sollicitudin non. In hac habitasse platea dictumst. Proin in dolor nunc. Donec quis posuere dui. Donec gravida luctus erat, ac scelerisque nulla aliquam in. Aliquam sed dignissim magna. Ut egestas leo non dolor molestie, vel vestibulum sapien fringilla. Sed ut arcu pharetra nisi porttitor maximus et eu nulla. Nunc ut odio lacus. </p>
-			<p>Vivamus quis diam sapien. Vivamus eget dignissim sem, vitae tincidunt erat. Aenean vitae sollicitudin risus. Donec id suscipit tortor. Nullam aliquet id erat id sagittis. Etiam id venenatis nisl. Aenean nec venenatis ante. Duis quis cursus sem. Donec ipsum ante, ornare vel tempus ac, vehicula in nibh. Donec cursus dolor vel orci convallis gravida. Curabitur nisi ligula, molestie sed suscipit in, consequat a lectus. </p>
-			<h4>Título h4</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum nibh dolor, vitae sodales sem sollicitudin non. In hac habitasse platea dictumst. Proin in dolor nunc. Donec quis posuere dui. Donec gravida luctus erat, ac scelerisque nulla aliquam in. Aliquam sed dignissim magna. Ut egestas leo non dolor molestie, vel vestibulum sapien fringilla. Sed ut arcu pharetra nisi porttitor maximus et eu nulla. Nunc ut odio lacus. </p>
-			<p>Vivamus quis diam sapien. Vivamus eget dignissim sem, vitae tincidunt erat. Aenean vitae sollicitudin risus. Donec id suscipit tortor. Nullam aliquet id erat id sagittis. Etiam id venenatis nisl. Aenean nec venenatis ante. Duis quis cursus sem. Donec ipsum ante, ornare vel tempus ac, vehicula in nibh. Donec cursus dolor vel orci convallis gravida. Curabitur nisi ligula, molestie sed suscipit in, consequat a lectus. </p>
-			<h5>Título h5</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum nibh dolor, vitae sodales sem sollicitudin non. In hac habitasse platea dictumst. Proin in dolor nunc. Donec quis posuere dui. Donec gravida luctus erat, ac scelerisque nulla aliquam in. Aliquam sed dignissim magna. Ut egestas leo non dolor molestie, vel vestibulum sapien fringilla. Sed ut arcu pharetra nisi porttitor maximus et eu nulla. Nunc ut odio lacus. </p>
-			<p>Vivamus quis diam sapien. Vivamus eget dignissim sem, vitae tincidunt erat. Aenean vitae sollicitudin risus. Donec id suscipit tortor. Nullam aliquet id erat id sagittis. Etiam id venenatis nisl. Aenean nec venenatis ante. Duis quis cursus sem. Donec ipsum ante, ornare vel tempus ac, vehicula in nibh. Donec cursus dolor vel orci convallis gravida. Curabitur nisi ligula, molestie sed suscipit in, consequat a lectus. </p>
+            <br>
+			<h2>Criação do servidor AWS</h2>
+            <p><strong>Passo 1: </strong>Acesse sua conta AWS</p>
+            <br>
+            <img src="images/aws-prints/1aws.png" class="img">
+            <br>
+            <p>Esta é a tela inicial</p>
+            <br>
+            <img src="images/aws-prints/2aws.png" class="img">
+            <p><strong>Passo 2: </strong>Na barra de pesquisa digite "ec2". Logo em seguida clique sobre ec2.</p>
+            <img src="images/aws-prints/3aws.png" class="img">
+            <p><strong>Passo 3: </strong>No painel lateral esquerdo clique sobre "Instâncias". Posteriormente, clique no botão laranja "Executar Instâncias".</p>
+            <img src="images/aws-prints/4aws-editado.png" class="img">
+            <p><strong>Passo 4: </strong>Selecione o Ubuntu Server 20.04 LTS (selecione a arquitetura adequado)</p>
+            <img src="images/aws-prints/6aws.png" class="img">
+            <p><strong>Passo 5: </strong>Em "Grupos de segurança", clique em "Editar grupos de segurança"</p>
+            <img src="images/aws-prints/7aws.png" class="img">
+            <p><strong>Passo 6: </strong>Na nossa atividade o "Nome do grupo de segurança" foi alterado; fica ao critério do usuário modificá-lo para facilitar a identificação.</p>
+            <p>Clique em "Adicionar regra" e, seguidamente, acrescente "HTTP" e "HTTPS".</p>
+            <img src="images/aws-prints/8aws.png" class="img">
+            <p>Por fim, clique em Verificar e ativar.</p>
+            <p><strong>Passo 7: </strong>Em "Tags", clique em "Editar Tags"</p>
+            <img src="images/aws-prints/9aws.png" class="img">
+            <p><strong>Passo 8: </strong>No campo "Chave", digite "Name"; no campo "Valor" digite um nome de sua preferência. Aqui utilizaremos "SudoSu".</p>
+            <img src="images/aws-prints/10aws.png" class="img">
+            <p><strong>Passo 9: </strong>Clique em executar.</p>
+            <img src="images/aws-prints/11aws.png" class="img">
+            <p><strong>Passo 10: </strong>Na primeira caixa, selecione "Criar um novo par de chaves". Na segunda, digite o nome para o par de chaves. Aqui usaremos "SudoSu"</p>
+            <p>Clique em "Fazer download do par de chaves". Por fim, clique em "Executar instância"</p>
+            <img src="images/aws-prints/12aws.png" class="img">
+            <p>Ao exibir essa tela, sua instância estará criada.</p>
+            <img src="images/aws-prints/13aws.png" class="img">
+            <p><strong>Passo 11: </strong>Volte para a página de Instâncias e clique sobre o ID da instância criada.</p>
+            <img src="images/aws-prints/14aws.png" class="img">
+            <p><strong>Passo 12: </strong>Copie o endereço IPv4 Público.</p>
+            <img src="images/aws-prints/15aws.png" class="img">
+
+            <h3>Acessando remotamente o servidor atráves do Putty</h3>
+            <h4>Instalação do Putty</h4>
+            <p>Se você está em uma distribuição Linux baseada em Debian, digite o comando:</p>
+            
+            <div class="codeBlock">
+				<code>
+					sudo apt update<br>
+					sudo apt install putty -y
+				</code>
+			</div>
+
+            <p>Se você está no Windows, pesquise e baixe o instalador através do browser. Feito isso, é só instalar o programa.</p>
+            <h4>Convertendo chave .ppm para .ppk</h4>
+
+            <p>Abra o PuttyGen, clique em Load e navegue até o local onde foi baixado a chave .ppm do AWS; Selecione-a.</p>
+            <img src="images/aws-prints/17aws.png">
+            <p>Por fim clique em "Save private key"</p>
+
+            <h4>Utilizando o Putty</h4>
+            <p><strong>Passo 1: </strong>Em "Host Name (or IP address)", insira o IPv4 Público copiado no site da AWS.</p>
+            <img src="images/aws-prints/16aws.png">
+            <p><strong>Passo 2: </strong>No painel lateral esquerdo, clique sobre "SSH" e em seguida sobre "Auth".</p>
+            <p>Em "Private key file for authentication:" clique sobre "Browse". Selecione a chave convertida para .ppk</p>
+            <p>Por fim, clique em "Open"</p>
+            <p>Pronto! Agora você está acessando o seu servidor remotamente.</p>
+
+            <h4>Configurando o novo servidor</h4>
+            <p><strong>Passo 1: </strong>Inicialmente iremos atualizar o servidor, para tanto, execute os comandos abaixo: </p>
+            <div class="codeBlock">
+				<code>
+					sudo apt update<br>
+					sudo apt upgrade -y
+				</code>
+			</div>
+            <p><strong>Passo 2: </strong>Agora vamos instalar o Apache e o Git:</p>
+            <div class="codeBlock">
+				<code>
+					sudo apt install apache2 git-all
+				</code>
+			</div>
+            <p><strong>Passo 3: </strong>Para permitir que a pasta /var/www/html seja acessada remotamente, execute o seguinte comando:</p>
+            <div class="codeBlock">
+				<code>
+					sudo su<br>
+                    chown -R ubuntu:ubuntu /var/www/html
+				</code>
+			</div>
+
+            
 			<div class="codeBlock">
 				<code>
 					$name = ['Kelvin', 'Ribeiro'];<br>
