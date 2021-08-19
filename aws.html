@@ -118,14 +118,18 @@
                     chown -R ubuntu:ubuntu /var/www/html
 				</code>
 			</div>
+            <h4>Lançando arquivos no servidor através do WinSCP</h4>
+            <p><strong>Passo 1:</strong> Em Host, insira o IPv4 Público. Em Usuário, insira "ubuntu".</p>
+            <img src="images/aws-prints/20aws.png">
+            <p><strong>Passo 2:</strong> Clique em Avançado > SSH > Autenticação. Em "Parâmetros de autenticação" clique nos três pondos e localize a chave .ppk </p>
+            <img src="images/aws-prints/21aws.png">
+            <p><strong>Passo 3:</strong> No painel lateral esquerdo, localize a sua pasta onde há os asquivos referente a página HTML.</p>
+            <p>No painel lateral direito, navegue até "/var/www/html/"</p>
+            <p>Por fim, arraste o seu arquivo do painel lateral esquerdo para o servidor (painel lateral direito).</p>
+            <img src="images/aws-prints/22aws.png" class="img">
+            <h4>Acessando sua página</h4>
+            <p>Para realizar o acesso, no navegador insira o Endereço IPv4 Público, uma barra e o nome da pasta onde está o "index.html" no servidor. A exemplo, nosso endereço IPv4 é "3.140.217.115", e o nome da nossa pasta é "GitTutorials"; portanto, o lin de acesso é: <a href="https://3.140.217.115/GitTutorials/">3.140.217.115/GitTutorials/</a></p>
 
-            
-			<div class="codeBlock">
-				<code>
-					$name = ['Kelvin', 'Ribeiro'];<br>
-					$sudo su
-				</code>
-			</div>
 		</main>
 		<footer>
 			<ul>
