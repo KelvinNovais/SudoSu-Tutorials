@@ -20,7 +20,7 @@ Tabela de conteúdos
 
 # Sobre
 
-Este projeto foi proposto pelo Senai, para que pudéssemos treinar os conteúdos de Git, GitHub e Git pages na prática, trabalhando em conjunto. Além disso, pudemos trabalhar com a metodologia SCRUM e nos familiarizamos com a ferramenta Figma.
+Este projeto foi proposto pelo Senai, para que pudéssemos treinar os conteúdos de Git, GitHub, Git Pages e AWS (Amazon Web Services) na prática, trabalhando em conjunto. Além disso, pudemos trabalhar com a metodologia SCRUM e nos familiarizamos com a ferramenta Figma.
 
 
 
