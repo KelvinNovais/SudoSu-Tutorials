@@ -130,12 +130,11 @@ nav{
 }
 
 #navDiv{
-	max-width: 700px;
-	width: 60%;
+	max-width: 1500px;
+	width: 95%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-items: center;
-	padding-left: 35%;
 }
 
 .menu {
@@ -249,4 +248,32 @@ footer ul li:hover{
 
 footer strong{
 	color: black;
+}
+
+/* Site responsivo */
+@media screen and (max-width: 1200px){
+	header .line{
+		flex-direction: column;
+	}
+
+	.logo{
+		justify-content: center;
+		margin: auto;
+		padding-right: 0;
+	}
+
+	nav{
+		width: 95%;
+		margin: auto;
+	}
+	
+	#navDiv{
+		width: 100%;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 935){
+
 }

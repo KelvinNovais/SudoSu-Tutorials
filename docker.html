@@ -10,7 +10,7 @@
 
 		<link rel="shortcut icon" type="image/png" href="images/icon/favicon-32x32.png">
 
-        <title>SudoSu Tutorials | Sobre nós</title>
+        <title>SudoSu Tutorials | Docker</title>
     </head>
     <body>
 		<header>
@@ -25,30 +25,39 @@
 						<a href="gitPages.html"><input type="button" class="menu" value="Git Pages"></a>
 						<a href="git.html"><input type="button" class="menu" value="Git"></a>
 						<a href="aws.html"><input type="button" class="menu" value="AWS"></a>
-						<a href="docker.html"><input type="button" class="menu" value="Docker"></a>
-						<a href="aboutUs.html"><input type="button" class="menu active" value="Sobre nós"></a>
+						<a href="docker.html"><input type="button" class="menu active" value="Docker"></a>
+						<a href="aboutUs.html"><input type="button" class="menu" value="Sobre nós"></a>
 					</div>
 				</nav>
 			</div>   
 		</header>
 		<main>
-			<h2>Sobre nós</h2>
-            <p>A empresa SudoSu (inpirada nos comandos do terminal Linux) visa atender você, nosso cliente, da melhor forma possível. Oferecemos serviços front-end e back-end. Abaixo, listamos nossas especialidades:</p>
-            <ul>
-                <li>Páginas com HTML, CSS e JS</li>
-                <li>Servidores Linux</li>
-                <li>Virtualização</li>
-                <li>Java</li>
-                <li>Python</li>
-            </ul>
-            <br>
-            <p>Nossos profissionais são estudantes da Escola SENAI Suíço-Brasileira "Paulo Ernesto Tolle", do curso Técnico em Desenvolvimento de Sistemas. Queremos dar as soluções que o mercado de trabalho necessita...</p>
-            <br><br>
-			<p>Permita-nos dar um <strong>sudo su</strong>, e seremos capazes de qualquer coisa!</p>
-			<br><br>
-			<div class="logo-sudosu" align="center">
-				<img src="images/sudosu-logo.png" width="25%" style="background-color: #151515; border-radius: 50%;">
+			<h2>Docker</h2>
+			<h3>Utilizando o Docker com o Apache</h3>
+            <p>Inicialmente instale-o</p>
+			<div class="codeBlock">
+				<code>
+					sudo apt install docker docker.io -y
+				</code>
 			</div>
+            <p>Baixe a imagem do Ubuntu/Apache:</p>
+			<div class="codeBlock">
+				<code>
+					sudo docker pull ubuntu/apache2
+				</code>
+			</div>
+            <p>No nosso caso, os arquivos que serão hospedados estão em Documentos/GitHub/GitTutorials. Para lançá-los no Docker, você deve informar a origem (na sua máquina) e o destino (no Docker), da seguinte forma -v origem:destino. O "-v" indica que esse volume será compartilhado com o Docker.</p>
+			<div class="codeBlock">
+				<code>
+					sudo docker run -d -v /home/$USER/Documentos/GitHub/GitTutorials:/var/www/html -p 8080:80 ubuntu/apache2
+				</code>
+			</div>
+            <p>Legenda dos atributos: </p>
+            <ul>
+                <li>"-d": será rodado em background, deixando o terminal livre;</li>
+                <li>"-v": volume que será compartilhado com o Docker;</li>
+                <li>"-p": porta em que a página será exibida (nessa caso 8080).</li>
+            </ul>
 		</main>
 		<footer>
 			<ul>

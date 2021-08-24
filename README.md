@@ -1,7 +1,7 @@
 # GitTutorials
 A group website about Git, GitHub and GitPages.  
 
-Website available at: https://kelvin-rnov.github.io/GitTutorials/
+Website available at: https://kelvin-rnov.github.io/SudoSu-Tutorials/
 
 <p align="center">
   <img src="images\sudosu-logo.png" width="300px" title="hover text">
