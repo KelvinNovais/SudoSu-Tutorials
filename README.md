@@ -1,7 +1,7 @@
 # GitTutorials
 A group website about Git, GitHub and GitPages.  
 
-Website available at: https://kelvin-rnov.github.io/SudoSu-Tutorials/
+Website available at: https://KelvinNovais.github.io/SudoSu-Tutorials/
 
 <p align="center">
   <img src="images\sudosu-logo.png" width="300px" title="hover text">
@@ -52,7 +52,7 @@ Nós utilizamos, para a organização dos projetos, a ferramenta trello. Focamos
 
 Sintia - https://github.com/sintiathafeny  
 
-Kelvin - https://github.com/Kelvin-rnov/  
+Kelvin - https://github.com/KelvinNovais/  
 
 Ligia - https://github.com/LigiaAlves/  
 
