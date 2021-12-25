@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/default.css">
+
+		<link rel="shortcut icon" type="image/png" href="images/icon/favicon-32x32.png">
+
+        <title>SudoSu Tutorials | Docker</title>
+    </head>
+    <body>
+		<header>
+			<div class="line">
+				<div class="logo">
+					<h1>SudoSu<span class="transition">&#9608;</span></h1>
+				</div>
+				<nav>
+					<div id="navDiv">
+						<a href="index.html"><input type="button" class="menu" value="Home"></a>
+						<a href="gitHub.html"><input type="button" class="menu" value="GitHub"></a>
+						<a href="gitPages.html"><input type="button" class="menu" value="Git Pages"></a>
+						<a href="git.html"><input type="button" class="menu" value="Git"></a>
+						<a href="aws.html"><input type="button" class="menu" value="AWS"></a>
+						<a href="docker.html"><input type="button" class="menu active" value="Docker"></a>
+						<a href="aboutUs.html"><input type="button" class="menu" value="Sobre nós"></a>
+					</div>
+				</nav>
+			</div>   
+		</header>
+		<main>
+			<h2>Docker</h2>
+			<h3>Utilizando o Docker com o Apache</h3>
+            <p>Inicialmente instale-o</p>
+			<div class="codeBlock">
+				<code>
+					sudo apt install docker docker.io -y
+				</code>
+			</div>
+            <p>Baixe a imagem do Ubuntu/Apache:</p>
+			<div class="codeBlock">
+				<code>
+					sudo docker pull ubuntu/apache2
+				</code>
+			</div>
+            <p>No nosso caso, os arquivos que serão hospedados estão em Documentos/GitHub/GitTutorials. Para lançá-los no Docker, você deve informar a origem (na sua máquina) e o destino (no Docker), da seguinte forma -v origem:destino. O "-v" indica que esse volume será compartilhado com o Docker.</p>
+			<div class="codeBlock">
+				<code>
+					sudo docker run -d -v /home/$USER/Documentos/GitHub/GitTutorials:/var/www/html -p 8080:80 ubuntu/apache2
+				</code>
+			</div>
+            <p>Legenda dos atributos: </p>
+            <ul>
+                <li>"-d": será rodado em background, deixando o terminal livre;</li>
+                <li>"-v": volume que será compartilhado com o Docker;</li>
+                <li>"-p": porta em que a página será exibida (nessa caso 8080).</li>
+            </ul>
+		</main>
+		<footer>
+			<ul>
+				<li><a href="https://github.com/sintiathafeny" target="_blank">Sintia Tháfeny</a></li>
+				<li><a href="https://github.com/Kelvin-rnov/" target="_blank">Kelvin Ribeiro</a></li>
+				<li><a href="https://github.com/LigiaAlves/" target="_blank">Ligia Alves</a></li>
+				<li><a href="https://github.com/ViniciusNB/" target="_blank">Vinicius Nascimento</a></li>
+				<li><a href="https://github.com/NicolasScariot/" target="_blank">Nicolas Luis</a></li>
+				<li><a href="https://github.com/pedrooks3034/" target="_blank">Pedro Garcia</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
